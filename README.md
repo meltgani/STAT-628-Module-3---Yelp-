@@ -1,6 +1,6 @@
 # STAT-628-Module-3---Yelp-
 
-## Module 3: Yelp Rating Analysis 
+## Group 8: Yelp Rating Analysis 
 Team Members:
 1. Aashna Ahuja(aashna.ahuja@wisc.edu)
 2. Marwa Eltgani(eltgani@wisc.edu)
@@ -15,7 +15,7 @@ The purpose of this project to help new restaurant owners in California predict 
 This folder contains the code that we used to clean Restaurants.csv ,the code that we used to create our graphs, and the code that we used to standardize star ratings along with its csv file. 
 
 ### Images
-This folder contains some the images used in our analysis. 
+This folder contains some the of images used in our analysis. 
 
 #### Modeling and Sentiment Analysis 
 This folder contains the Random Forest code and a csv showing the important features. It contains the code for the Sentiment Analysis.
