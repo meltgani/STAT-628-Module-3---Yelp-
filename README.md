@@ -14,6 +14,9 @@ The purpose of this project to help new restaurant owners in California predict 
 #### Data Cleaning and EDA
 This folder contains the code that we used to clean Restaurants.csv ,the code that we used to create our graphs, and the code that we used to standardize star ratings along with its csv file. 
 
+### Images
+This folder contains some the images used in our analysis. 
+
 #### Modeling and Sentiment Analysis 
 This folder contains the Random Forest code and a csv showing the important features. It contains the code for the Sentiment Analysis.
 
