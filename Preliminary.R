@@ -1,7 +1,7 @@
 library(ggplot2)
 library(tidyverse)
 library(Metrics)
-rest=read.csv("~/Desktop/STAT628/Module3/STAT-628-Module-3---Yelp-/restaurant6.csv")
+rest=read.csv("restaurant6.csv")
 rest
 
 rest %>%
@@ -15,7 +15,7 @@ rest %>%
       )
 
 ########
-rest3=read.csv("~/Desktop/STAT628/Module3/STAT-628-Module-3---Yelp-/Restaurant7.csv")
+rest3=read.csv("Restaurant7.csv")
 
 
 rest3 %>%
@@ -30,10 +30,7 @@ rest3 %>%
 
 #####
 
-library(ggplot2)
-library(tidyverse)
-library(Metrics)
-rest2=read.csv("~/Desktop/STAT628/Module3/STAT-628-Module-3---Yelp-/Restaurant7.csv")
+rest2=read.csv("Restaurant7.csv")
 rest2
 
 rest2$Type=as.factor(rest2$Type) 
@@ -49,10 +46,7 @@ str(rest2)
     
 ########
 
-  library(ggplot2)
-  library(tidyverse)
-  library(Metrics)
-  rest4=read.csv("~/Desktop/STAT628/Module3/STAT-628-Module-3---Yelp-/restaurant8.csv")
+rest4=read.csv("restaurant8.csv")
   
   
   
@@ -74,3 +68,66 @@ rest4<- rest4 %>%
       x= "Day of Week"
     )
     
+###########
+  
+rest=read.csv("Final_Business_0_1.csv")
+rest2=read.csv("std_stars.csv")
+data<-merge(rest,rest2,by="business_id")
+
+
+data$DriveThru=as.factor(data$DriveThru)
+ggplot(data)+
+  geom_boxplot(aes(DriveThru,std_stars.y))+
+  labs(
+      y = "Ratings",
+    )
+
+data$RestaurantsDelivery=as.factor(data$RestaurantsDelivery)
+ggplot(data)+
+  geom_boxplot(aes(RestaurantsDelivery,std_stars.y))+
+  labs(
+    y = "Ratings",
+  )
+ 
+data$Caters=as.factor(data$Caters)
+ggplot(data)+
+  geom_boxplot(aes(Caters,std_stars.y))+
+  labs(
+    y = "Ratings",
+  ) 
+
+data$Ambience_casual=as.factor(data$Ambience_casual)
+ggplot(data)+
+  geom_boxplot(aes(Ambience_casual,std_stars.y))+
+  labs(
+    y = "Ratings",
+  ) 
+
+data$OutdoorSeating=as.factor(data$OutdoorSeating)
+ggplot(data)+
+  geom_boxplot(aes(OutdoorSeating,std_stars.y))+
+  labs(
+    y = "Ratings",
+  ) 
+
+data$Type=as.factor(data$Type)
+ggplot(data)+
+  geom_boxplot(aes(Type,std_stars.y))+
+  labs(
+    y = "Ratings",
+  ) 
+
+data$RestaurantsTakeOut=as.factor(data$RestaurantsTakeOut)
+ggplot(data)+
+  geom_boxplot(aes(RestaurantsTakeOut,std_stars.y))+
+  labs(
+    y = "Ratings",
+  ) 
+
+data$RestaurantsReservations=as.factor(data$RestaurantsReservations)
+ggplot(data)+
+  geom_boxplot(aes(RestaurantsReservations,std_stars.y))+
+  labs(
+    y = "Ratings",
+  ) 
+
