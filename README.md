@@ -11,17 +11,11 @@ The purpose of this project to help new restaurant owners in California predict 
 
 ### Content 
 
-#### Data Cleaning Code
-This folder contains the code that we used to clean Restaurants.csv. 
+#### Data Cleaning and EDA
+This folder contains the code that we used to clean Restaurants.csv ,the code that we used to create our graphs, and the code that we used to standardize star ratings along with its csv file. 
 
-#### EDA
-This folder contains the code that we used to create our graphs. It also contains the code that we used to standardize star ratings along with its csv file. 
-
-#### Model Code
-This folder contains the Random Forest code and a csv showing the important features.
-
-#### Sentimental Analysis 
-This folder contains the code for Sentimental Analysis.
+#### Modeling and Sentiment Analysis 
+This folder contains the Random Forest code and a csv showing the important features. It contains the code for the Sentiment Analysis.
 
 #### Shiny 
 This folder contains the Shiny code. 
