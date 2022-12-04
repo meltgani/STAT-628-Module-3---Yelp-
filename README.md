@@ -27,3 +27,4 @@ This folder contains the code for Sentimental Analysis.
 This folder contains the Shiny code. 
 
 ### ShinyApp link
+https://meltgani.shinyapps.io/Shiny/
