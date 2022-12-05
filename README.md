@@ -20,6 +20,9 @@ This folder contains some the of images used in our analysis.
 #### Modeling 
 This folder contains the Random Forest code and a csv showing the important features. 
 
+###Presentation and Summary
+This folder contains the powerpoint presentation and executive summary. 
+
 #### Sentiment Analysis 
 This folder contains the code for the NLP sentiment Analysis 
 
