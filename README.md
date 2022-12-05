@@ -17,8 +17,11 @@ This folder contains the code that we used to clean Restaurants.csv ,the code th
 ### Images
 This folder contains some the of images used in our analysis. 
 
-#### Modeling and Sentiment Analysis 
-This folder contains the Random Forest code and a csv showing the important features. It contains the code for the Sentiment Analysis.
+#### Modeling 
+This folder contains the Random Forest code and a csv showing the important features. 
+
+#### Sentiment Analysis 
+This folder contains the code for the NLP sentiment Analysis 
 
 #### Shiny 
 This folder contains the Shiny code. 
